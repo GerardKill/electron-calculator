@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #282929;
+}
+
+.enter__text{
+  background-color: #DFDFDF;
+  height: 80px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.input__field{
+  background-color: #809488;
+  margin: 21px 54px;
+  height: 33px;
+  width: 190px;
+}
+
+.input__button__up{
+  width: 90%;
+  height: 148px;
+  margin: 0 auto;
+  padding-top: 1em;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2vw;
+}
+
+.input__button__down{
+  width: 75%;
+  height: 140px;
+  margin: 0 auto;
+  padding-top: 0.5em;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2vw;
+}
+
+.num{
+  background-color: #D0D4D7;
+  border: none;
+}
+
+.operation{
+  background-color: #465576;
+  border: none;
+  color: #fff;
+}
+
+.complicated__operation{
+  background-color: #0E0E0E;
+  border: none;
+  color: #fff;
+}
+
+.clear__but{
+  background-color: #6F8DC3;
+  border: none;
+  color: #fff;
+}
